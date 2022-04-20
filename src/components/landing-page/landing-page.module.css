@@ -2,3 +2,135 @@
     background-color: black;
     height: 120vh;
 }
+
+.firstbanner {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    margin: 5%;
+    background-color: rgb(255, 75, 105);
+    color: white;
+    font-size: 5vh;
+    font-weight: 700;
+    border-radius: 15px;
+    width: 70vw;
+    left: 5vw;
+}
+
+.banner-btn {
+    color: white;
+    background: transparent;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 10px 20px;
+}
+
+.banner-btn:hover {
+    border: 2px solid white;
+    cursor: pointer;
+
+}
+
+.pic-ban {
+    
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    flex-direction: column;
+    width: 80vw;
+    left: 5vw;
+    top: 70vh;
+    color: white;
+    
+    
+}
+
+.pic-ban-img {
+    height: 70vh;
+    border-radius: 15px;
+}
+
+.pic-ban-txt {
+    position: absolute;
+    align-items: center;
+    top: 47vh;
+    left: 17%;
+    font-size: 8vh;
+    font-weight: 600;
+}
+
+.pic-ban-btn {
+    position: absolute;
+    align-items: center;
+    top: 68vh;
+    left: 48%;
+    padding: 20px 40px;
+    border-radius: 30px;
+    border-style: none;
+    color: purple;
+    font-size: 2vh;
+    font-weight: 700;
+    
+}
+
+.next-trip {
+    position: absolute;
+    top: 155vh;
+    display: flex;
+    
+    
+    
+}
+
+.trip-title {
+    position: relative;
+    left: 10vw;
+    font-size: 5vh;
+    font-weight: 600;
+  
+}
+
+.tabs {
+    position: absolute;
+    top: 10vh;
+    left: 9vw;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3vh;
+}
+
+.tab {
+    padding: 5px;
+    margin: 0.5vw;
+    color: white;
+    width: 19vw;
+}
+
+.tab-lower {
+    position: relative;
+    background-color: rgb(255, 75, 105);
+    border-radius: 0px 0px 10px 10px;
+    top: -4vh;
+    height: 22vh;
+}
+
+.tab-img {
+    border-radius: 10px 10px 0px 0px;
+    width: 19vw;
+}
+
+.location {
+    font-size: 3.5vh;
+    margin-left: 0.3vw;
+}
+
+.miles {
+    font-size: 1.5vh;
+    margin-left: 0.3vw;
+    margin-top: -2vh;
+    height: 10vh;
+}

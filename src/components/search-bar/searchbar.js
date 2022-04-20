@@ -7,10 +7,10 @@ export default function SearchBar() {
         <div className={style["searchbar"]}>
             <form className={style["searchbg"]}>
                 <input className={style["inputbar"]}></input>
-                <input className={style["inputbar"]}></input>
-                <input className={style["inputbar"]}></input>
-                <input className={style["inputbar"]}></input>
-                <button className={style["searchbtn"]}></button>
+                <input className={style["inputbar-start"]}></input>
+                <input className={style["inputbar-mid"]}></input>
+                <input className={style["inputbar-end"]}></input>
+                <button className={style["searchbtn"]}><AiOutlineSearch/></button>
             </form>
         </div>
     )
