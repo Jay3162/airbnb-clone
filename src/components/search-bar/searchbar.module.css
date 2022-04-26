@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: 1%;
 
 
 }
@@ -13,7 +14,7 @@
     width: 10vw;
     border-style: none;
     /* padding: 3% 1%; */
-    padding: 10px 10px ;
+    padding: 2vh 1vw;
     outline: none;
 }
 
@@ -21,20 +22,20 @@
     outline: none;
     width: 10vw;
     border-style: none;
-    padding: 10px 10px;
+    padding: 2vh 1vw;
 }
 .inputbar-mid {
     outline: none;
     width: 10vw;
     border-style: none;
-    padding: 10px 10px;
+    padding: 2vh 1vw;
 }
 .inputbar-end {
     outline: none;
     border-radius: 0px 30px 30px 0px;
     width: 10vw;
     border-style: none;
-    padding: 10px 10px;
+    padding: 2vh 1vw;
 }
 
 .inputbar:hover {
@@ -56,14 +57,23 @@
     background-color: rgb(230, 230, 230);
 }
 
+
+
 .searchbtn {
     position: relative;
     right: 2vw;
     background: rgb(255, 75, 105);
     outline: none;
     border-style: none;
-    border-radius: 50%;
+    border-radius: 150%;
     height: 3vh;
+    width: 1.53vw;
     color: white;
+    font-size: 1.5vh;
     
+}
+
+.searchbtn:hover {
+    background: rgb(255, 50, 84);
+    cursor: pointer;
 }

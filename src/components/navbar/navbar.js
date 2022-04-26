@@ -1,6 +1,5 @@
 import React from 'react';
 import style from './navbar.module.css';
-import { ReactComponentElement } from 'react';
 import { RiGlobalLine } from 'react-icons/ri'
 import { FaBars } from 'react-icons/fa'
 import { CgProfile } from 'react-icons/cg'

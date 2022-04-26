@@ -1,0 +1,155 @@
+.container {
+    position: relative;
+    display: flex;
+    top: 100vh;
+    height: 100vh;
+}
+
+.title {
+    position: absolute;
+    align-items: flex-end;
+    left: 10vw;
+    font-size: 2.5vw;
+    font-weight: 600;
+    line-height: 0;
+    
+}
+
+.tab {
+    position: relative;
+    left: 9vw;
+    top: 10vh;
+    display: flex;
+    flex-direction: row;
+    margin: 0.5vw;
+}
+
+.tabs {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.tab-img {
+    position: relative;
+    /* max-height: 53vh;
+    max-width: 53vw; */
+    height: 80vh;
+    width: 40vw;
+    border-radius: 20px;
+    
+}
+
+.tab-inner {
+    position: absolute;
+    display: flex;
+    align-items: flex-start;
+    padding: 10%;
+    flex-direction: column;
+}
+
+.tab-txt {
+    color: white;
+    font-size: 2.5vw;
+    font-weight: 600;
+    width: 20vw;
+}
+
+.tab-btn {
+    padding: 5% 5%;
+    font-size: 0.9vw;
+    font-weight: 550;
+    border-radius: 10px;
+    border-style: none;
+    margin-top: -2vh;
+}
+
+.gift-cards {
+    height: 30vh;
+    position: absolute;
+    top: 100vh;
+    left: 10vw;
+    font-size: 2.5vw;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+}
+
+.gift-btn {
+    padding: 3% 4.5%;
+    border-style: none;
+    border-radius: 10px;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    font-size: 1vw;
+
+
+}
+.cards {
+    display: flex;
+    margin-left: 1vw;
+}
+
+.card1 {
+    height: 20vh;
+    border-radius: 20px;
+    transform: rotate(-9deg);
+    width: 15vw;
+    z-index: 1;
+}
+
+.card2 {
+    position: absolute;
+    height: 20vh;
+    border-radius: 20px;
+    transform: rotate(-18deg);
+    width: 15vw;
+    left: 37vw;
+    top: 5vh;
+    z-index: -1;
+}
+
+.card3 {
+    position: absolute;
+    height: 20vh;
+    border-radius: 20px;
+    transform: rotate(18deg);
+    width: 15vw;
+    left: 50vw;
+    top: 2vh;
+    z-index: -2;
+}
+
+.last-tab {
+    position: absolute;
+    top: 140vh;
+    left: 10vw;
+}
+
+.last-tab-img {
+    width: 80vw;
+    border-radius: 20px;
+    height: 85vh;
+}
+
+.last-tab-inner {
+    position: absolute;
+    top: 1vh;
+    padding: 5%;
+}
+
+.last-tab-txt {
+    font-size: 4vw;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 20vh;
+    width: 10vw;
+}
+
+.last-tab-btn {
+    border-style: none;
+    border-radius: 20px;
+    padding: 10% 12%;
+    font-size: 0.9vw;
+    font-weight: 550;
+}

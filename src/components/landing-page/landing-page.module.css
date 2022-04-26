@@ -38,42 +38,47 @@
     
     position: absolute;
     display: flex;
-    justify-content: center;
-    padding: 5%;
+    justify-content: flex-end;
+    align-items: center;
     flex-direction: column;
+    padding: 5%;
     width: 80vw;
     left: 5vw;
     top: 70vh;
+    height: 70vh;
     color: white;
-    
     
 }
 
 .pic-ban-img {
     height: 70vh;
     border-radius: 15px;
+    width: 100%;
 }
+
 
 .pic-ban-txt {
     position: absolute;
-    align-items: center;
-    top: 47vh;
-    left: 17%;
-    font-size: 8vh;
+    
+    font-size: 3vw;
     font-weight: 600;
+    margin: 10%;
+
 }
 
 .pic-ban-btn {
     position: absolute;
-    align-items: center;
-    top: 68vh;
-    left: 48%;
-    padding: 20px 40px;
-    border-radius: 30px;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 1.1% 2%;
+    border-radius: 40px;
     border-style: none;
     color: purple;
-    font-size: 2vh;
+    font-size: 1vw;
     font-weight: 700;
+    margin: 4%
+    /* width: 12vw; */
+
     
 }
 
@@ -91,8 +96,10 @@
     left: 10vw;
     font-size: 5vh;
     font-weight: 600;
+    flex-direction: row;
   
 }
+
 
 .tabs {
     position: absolute;
@@ -105,7 +112,7 @@
 
 .tab {
     padding: 5px;
-    margin: 0.5vw;
+    margin: 0.2vw;
     color: white;
     width: 19vw;
 }
