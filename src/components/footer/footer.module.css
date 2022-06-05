@@ -1,0 +1,44 @@
+.footer-container {
+    position: absolute;
+    display: flex;
+    height: 90vh;
+    top: 450vh;
+    justify-content: flex-start;
+    left: 10vw;
+    width: 100vw;
+    
+}
+
+.title {
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+.span-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.span-el {
+    display: flex;
+    
+    
+    
+    
+}
+
+.loc-spans-set {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80vw;
+    
+    
+}
+
+.loc-span {
+    display: flex;
+    flex-direction: column;
+}
+
