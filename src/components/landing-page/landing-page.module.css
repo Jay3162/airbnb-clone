@@ -80,6 +80,10 @@
     /* width: 12vw; */   
 }
 
+.pic-ban-btn:hover {
+    cursor: pointer;
+}
+
 .next-trip {
     position: absolute;
     display: flex;
