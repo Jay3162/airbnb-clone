@@ -7,7 +7,60 @@
 
 }
 
+.btn-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    margin-top: -4.2vh;
+    margin-right: 0.5vw;
+}
 
+@media (width: 1000px) {
+    .btn-wrapper {
+        margin-top: -4.5vh;
+    }
+}
+
+@media (width: 900px) {
+    .btn-wrapper {
+        margin-top: -4.5vh;
+    }
+}
+
+@media (width: 800px) {
+    .btn-wrapper {
+        margin-top: -4.3vh;
+    }
+
+}
+
+@media (width: 700px) {
+    .btn-wrapper {
+        margin-top: -4.9vh;
+    }
+
+}
+
+@media (width: 500px) {
+    .btn-wrapper {
+        margin-top: -5.5vh;
+    }
+
+}
+
+@media (width: 400px) {
+    .btn-wrapper {
+        margin-top: -5.7vh;
+    }
+
+}
+
+@media (width: 300px) {
+    .btn-wrapper {
+        margin-top: -9vh;
+    }
+
+}
 
 .inputbar {
     border-radius: 30px 0px 0px 30px;
@@ -60,16 +113,17 @@
 
 
 .searchbtn {
-    position: relative;
-    right: 2vw;
     background: rgb(255, 75, 105);
     outline: none;
     border-style: none;
-    border-radius: 150%;
-    height: 3vh;
+    border-radius: 50%;
+    height: auto;
+    padding: 0.6%;
     width: 1.53vw;
     color: white;
     font-size: 1.5vh;
+    align-items: center;
+
     
 }
 

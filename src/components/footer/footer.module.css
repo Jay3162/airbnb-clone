@@ -1,11 +1,11 @@
 .footer-container {
     position: absolute;
     display: flex;
-    height: 90vh;
+    height: 40vh;
     top: 450vh;
     justify-content: flex-start;
     left: 10vw;
-    width: 100vw;
+    width: 80vw;
     
 }
 
@@ -14,31 +14,35 @@
     font-weight: 500;
 }
 
-.span-wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+
+ul, li {
+    text-decoration: none;
+    list-style: none;
 }
 
-.span-el {
-    display: flex;
-    
-    
-    
-    
+h4 {
+    font-size: 1vw;
 }
 
-.loc-spans-set {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 80vw;
-    
-    
-}
-
-.loc-span {
+.locations {
     display: flex;
     flex-direction: column;
+    font-size: 0.9vw;
+    
 }
 
+.li-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 77.5vw;
+    justify-content: space-between; 
+}
+
+.show-more-btn {
+    font-size: 0.9vw;
+}
+
+.show-more-btn:hover {
+    cursor: pointer;
+    
+}

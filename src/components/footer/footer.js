@@ -6,68 +6,59 @@ export default function Footer() {
         <div className={style["footer-container"]}>
             <footer>
                 <p className={style["title"]}>Inspiration for future getaways</p>
-                <div className={style["span-wrapper"]}>
-                    <span className={style["span-el"]}>Historic Destinations</span>
-                    <span className={style["span-el"]}>Coastal Destinations</span>
-                    <span className={style["span-el"]}>Island Destinations</span>
-                    <span className={style["span-el"]}>Lake Destinations</span>
-                    <span className={style["span-el"]}>Other Popular Destinations</span>
-                </div>
-                <div className={style["locations"]}>
-                    <div className={style["loc-spans-set"]}>
-                        <div className={style["loc-span"]}>
-                            <span className={style["exact-location"]}>Aberdeen</span>
-                            <span className={style["country"]}>Scotland</span>
-                        </div>
-                        <div className={style["loc-span"]}>
-                            <span className={style["exact-location"]}>Aberystwyth</span>
-                            <span className={style["country"]}>Wales</span>
-                        </div>
-                        <div className={style["loc-span"]}>
-                            <span className={style["exact-location"]}>Alnwick</span>
-                            <span className={style["country"]}>England</span>
-                        </div>
-                        <div className={style["loc-span"]}>
-                            <span className={style["exact-location"]}>Bamburgh</span>
-                            <span className={style["country"]}>England</span>
-                        </div>
-                    </div>
-                    <div className={style["loc-spans-set"]}>
-                        <div className={style["loc-span"]}>
-                            <span className={style["exact-location"]}>Berwick-upon-Tweed</span>
-                            <span className={style["country"]}>England</span>
-                        </div>
-                        <div className={style["loc-span"]}>
-                            <span className={style["exact-location"]}>Boscastle</span>
-                            <span className={style["country"]}>England</span>
-                        </div>
-                        <div className={style["loc-span"]}>
-                            <span className={style["exact-location"]}>Brittany</span>
-                            <span className={style["country"]}>Bourgogne-Franche-Comte</span>
-                        </div>
-                        <div className={style["loc-span"]}>
-                            <span className={style["exact-location"]}>Budapest</span>
-                            <span className={style["country"]}>Hungary</span>
-                        </div>
-                    </div>
-                    <div className={style["loc-spans-set"]}>
-                        <div className={style["loc-span"]}>
-                            <span className={style["exact-location"]}>Cardiff</span>
-                            <span className={style["country"]}>Wales</span>
-                        </div>
-                        <div className={style["loc-span"]}>
-                            <span className={style["exact-location"]}>Castleton</span>
-                            <span className={style["country"]}>England</span>
-                        </div>
-                        <div className={style["loc-span"]}>
-                            <span className={style["exact-location"]}>Cheltenham</span>
-                            <span className={style["country"]}>England</span>
-                        </div>
-                        <div className={style["loc-span"]}>
-                            <span className={style["footer-span-btn"]}><button>Show more</button></span>
-                        </div>
-                    </div>
-                </div>
+                <ul className={style["li-wrapper"]}>
+                    <li>
+                        <h4>Historic Destinations</h4>
+                        <ul className={style["locations"]}>
+                            <li>Aberdeen</li>
+                            <li>Scotland</li>
+                            <li>Berwick-upon-Tweed</li>
+                            <li>England</li>
+                            <li>Cardiff</li>
+                            <li>Wales</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>Coastal Destinations</h4>
+                        <ul className={style["locations"]}>
+                            <li>Aberystwyth</li>
+                            <li>Wales</li>
+                            <li>Boscastle</li>
+                            <li>England</li>
+                            <li>Castleton</li>
+                            <li>England</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>Lake Destinations</h4>
+                        <ul className={style["locations"]}>
+                            <li>Alnwick</li>
+                            <li>England</li>
+                            <li>Brittany</li>
+                            <li>Bourgogne-Franche-Comte</li>
+                            <li>Cheltenham</li>
+                            <li>England</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>Other Popular Destinations</h4>
+                        <ul className={style["locations"]}>
+                            <li>Bamburgh</li>
+                            <li>England</li>
+                            <li>Budapest</li>
+                            <li>Hungary</li>
+                            <a className={style["show-more-btn"]}>Show More</a>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h4></h4>
+                        <ul>
+                            <li></li>
+                        </ul>
+                    </li>
+                </ul>
             </footer>
         </div>
     )

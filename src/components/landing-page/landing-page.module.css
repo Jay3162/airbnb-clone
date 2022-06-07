@@ -18,6 +18,7 @@
     border-radius: 15px;
     width: 70vw;
     left: 5vw;
+
 }
 
 .banner-btn {
@@ -59,7 +60,6 @@
 
 .pic-ban-txt {
     position: absolute;
-    
     font-size: 3vw;
     font-weight: 600;
     margin: 10%;
@@ -77,18 +77,13 @@
     font-size: 1vw;
     font-weight: 700;
     margin: 4%
-    /* width: 12vw; */
-
-    
+    /* width: 12vw; */   
 }
 
 .next-trip {
     position: absolute;
-    top: 155vh;
     display: flex;
-    
-    
-    
+    top: 155vh;
 }
 
 .trip-title {
@@ -114,7 +109,7 @@
     padding: 5px;
     margin: 0.2vw;
     color: white;
-    width: 19vw;
+    width: 19.4vw;
 }
 
 .tab-lower {
@@ -127,7 +122,7 @@
 
 .tab-img {
     border-radius: 10px 10px 0px 0px;
-    width: 19vw;
+    width: 19.4vw;
 }
 
 .location {
