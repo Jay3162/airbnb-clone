@@ -1,11 +1,10 @@
 .footer-container {
-    position: absolute;
     display: flex;
-    height: 40vh;
-    top: 450vh;
-    justify-content: flex-start;
-    left: 10vw;
-    width: 80vw;
+    /* height: 40vh; */
+    justify-content: center;
+    width: 100vw;
+    margin: auto;
+    margin-top: 20vh;
     
 }
 

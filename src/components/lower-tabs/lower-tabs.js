@@ -1,5 +1,6 @@
 import React from 'react'
 import style from './lower-tabs.module.css'
+import Footer from '../footer/footer'
 
 
 export default function LowerTab () {
@@ -12,17 +13,20 @@ export default function LowerTab () {
     const fieldBg = new URL('./images/women-road-brunette-flowers-wallpaper.jpg', import.meta.url)
     return (
         <div className={style["container"]}>
-            <p className={style["title"]}>Discover airbnb Experiences</p>
+            <div>
+                <p className={style["title"]}>Discover airbnb Experiences</p>
+            </div>
+            
             <div className={style["tabs"]}>
                 <div className={style["tab"]}>
-                    <img className={style["tab-img"]} src={caves}></img>
+                    {/* <img className={style["tab-img"]} src={caves}></img> */}
                     <div className={style["tab-inner"]}>
                         <p className={style["tab-txt"]}>Things to do on your trip</p>
                         <button className={style["tab-btn"]}>Experiences</button>
                     </div>
                 </div>
                 <div className={style["tab"]}>
-                    <img className={style["tab-img"]} src={caves}></img>
+                    {/* <img className={style["tab-img"]} src={caves}></img> */}
                     <div className={style["tab-inner"]}>
                         <p className={style["tab-txt"]}>Things to do from home</p>
                         <button className={style["tab-btn"]}>Online Experiences</button>
@@ -41,12 +45,16 @@ export default function LowerTab () {
                 </div>
             </div>
             <div className={style["last-tab"]}>
-                <img className={style["last-tab-img"]} src={fieldBg}></img>
-                <div className={style["last-tab-inner"]}>
-                    <p className={style["last-tab-txt"]}>Questions about hosting?</p>
-                    <button className={style["last-tab-btn"]}>Ask a Superhost</button>
+                {/* <img className={style["last-tab-img"]} src={fieldBg}></img> */}
+                <div className={style["last-tab-img"]}>
+                    <div className={style["last-tab-inner"]}>
+                        <p className={style["last-tab-txt"]}>Questions about hosting?</p>
+                        <button className={style["last-tab-btn"]}>Ask a Superhost</button>
+                    </div>
                 </div>
+
             </div>
+            <Footer/>
         </div>
         
     )

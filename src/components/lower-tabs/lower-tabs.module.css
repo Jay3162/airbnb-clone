@@ -1,51 +1,54 @@
 .container {
-    position: relative;
+    
     display: flex;
-    top: 100vh;
     height: 100vh;
+    flex-direction: column;
 }
 
 .title {
-    position: absolute;
+    
     align-items: flex-end;
-    left: 10vw;
     font-size: 2.5vw;
     font-weight: 600;
     line-height: 0;
+    margin-left: 10vw;
     
 }
 
 .tab {
-    position: relative;
-    left: 9vw;
-    top: 10vh;
     display: flex;
-    flex-direction: row;
-    margin: 0.5vw;
+    flex-direction: column;
+    /* margin: auto; */
+    /* margin-left: 2vw; */
 }
 
 .tabs {
-    position: relative;
     display: flex;
     flex-direction: row;
-}
-
-.tab-img {
-    position: relative;
-    /* max-height: 53vh;
-    max-width: 53vw; */
-    height: 80vh;
-    width: 40vw;
-    border-radius: 20px;
+    width: 100vw;
+    justify-content: center;
+    /* margin: auto; */
     
 }
 
+/* .tab-img {
+    
+
+    height: auto;
+    width: 40vw;
+    border-radius: 20px;
+    
+} */
+
 .tab-inner {
-    position: absolute;
-    display: flex;
-    align-items: flex-start;
-    padding: 10%;
-    flex-direction: column;
+    padding: 1vw;
+    background-image: url('./images/caves.jpg');
+    height: auto;
+    width: 36vw;
+    border-radius: 2vw;
+    /* margin: auto; */
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
 }
 
 .tab-txt {
@@ -61,7 +64,7 @@
     font-weight: 550;
     border-radius: 10px;
     border-style: none;
-    margin-top: -2vh;
+    /* margin-top: -2vh; */
 }
 
 .tab-btn {
@@ -70,13 +73,15 @@
 
 .gift-cards {
     height: 30vh;
-    position: absolute;
-    top: 100vh;
-    left: 10vw;
     font-size: 2.5vw;
     font-weight: 600;
     display: flex;
     flex-direction: row;
+    margin: auto;
+    margin-top: 5vh;
+    
+
+    
 }
 
 .gift-btn {
@@ -93,7 +98,7 @@
 }
 .cards {
     display: flex;
-    margin-left: 1vw;
+    margin-left: 0.5vw;
 }
 
 .card1 {
@@ -105,50 +110,101 @@
 }
 
 .card2 {
-    position: absolute;
     height: 20vh;
     border-radius: 20px;
     transform: rotate(-18deg);
     width: 15vw;
-    left: 37vw;
-    top: 5vh;
     z-index: -1;
 }
 
 .card3 {
-    position: absolute;
     height: 20vh;
     border-radius: 20px;
     transform: rotate(18deg);
     width: 15vw;
-    left: 50vw;
-    top: 2vh;
     z-index: -2;
 }
 
+@media (max-width: 1400) {
+    .card1 {
+        height: 15vh;
+        width: 10vw;
+    }
+    .card2 {
+        height: 15vh;
+        width: 10vw;
+    }
+    .card3 {
+        height: 15vh;
+        width: 10vw;
+    }
+}
+
+@media (max-width: 1000) {
+    .card1 {
+        height: 10vh;
+        width: 5vw;
+    }
+    .card2 {
+        height: 10vh;
+        width: 5vw;
+    }
+    .card3 {
+        height: 10vh;
+        width: 5vw;
+    }
+}
+
+@media (max-width: 800) {
+    .card1 {
+        height: 8vh;
+        width: 4vw;
+    }
+    .card2 {
+        height: 8vh;
+        width: 4vw;
+    }
+    .card3 {
+        height: 8vh;
+        width: 4vw;
+    }
+}
+
 .last-tab {
-    position: absolute;
-    top: 140vh;
-    left: 10vw;
+    /* display: flex;
+    margin: auto;
+    width: 80vw;
+    height: 85vh;
+    flex-direction: column; */
+    display: flex;
+    width: 80vw;
+    height: 85vh;
+    background-image: url('./images/women-road-brunette-flowers-wallpaper.jpg');
+    margin: auto;
+    margin-top: 5vh;
+    border-radius: 20px;
+    
+    
 }
 
 .last-tab-img {
-    width: 80vw;
-    border-radius: 20px;
-    height: 85vh;
+    object-fit: cover;
+    height: auto;
+    
+    
 }
 
 .last-tab-inner {
-    position: absolute;
-    top: 1vh;
     padding: 5%;
+
 }
 
 .last-tab-txt {
+    display: flex;
     font-size: 4vw;
     font-weight: 600;
     color: white;
-    margin-bottom: 20vh;
+    
     width: 10vw;
 }
 

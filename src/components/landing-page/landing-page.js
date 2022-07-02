@@ -21,21 +21,27 @@ export default function LandingPage() {
                         <p className={style["banner-title"]}>Lorem ipsum dolor sit amet, consectetur</p>
                         <button className={style["banner-btn"]}>Learn more</button>
                     </div>
+
+
                 </div>
                 <div className={style["pic-ban"]}>
                     <img src={cabin} className={style["pic-ban-img"]}></img>
                     <p className={style["pic-ban-txt"]}>Let your curiousity do the booking</p>
                     <button className={style["pic-ban-btn"]}>I'm flexible</button>
+                </div>
 
+                <div>
+                    <p className={style["trip-title"]}>Inspiration for your next trip</p>
                 </div>
 
                 <div className={style["next-trip"]}>
-                    <p className={style["trip-title"]}>Inspiration for your next trip</p>
+
+                    
                     <div className={style["tabs"]}>
                         <span className={style["tab"]}>
                             <img className={style["tab-img"]} src={brightPic}></img>
                             <div className={style["tab-lower"]}>
-                                <p className={style["location"]}>Brighton</p>
+                                <p className={style["location"]}>Brighton   </p>
                                 <p className={style["miles"]}>49 miles away</p>
                             </div>
                         </span>
@@ -49,7 +55,7 @@ export default function LandingPage() {
                         <span className={style["tab"]}>
                             <img className={style["tab-img"]} src={newquay}></img>
                             <div className={style["tab-lower"]}>
-                                <p className={style["location"]}>Newquay</p>
+                                <p className={style["location"]}>Newquay   </p>
                                 <p className={style["miles"]}>209 miles away</p>
                             </div>
                         </span>
@@ -64,7 +70,7 @@ export default function LandingPage() {
                     </div>
                 </div>
                 <LowerTab/>
-                <Footer/>
+                
             </div>
     )
 }

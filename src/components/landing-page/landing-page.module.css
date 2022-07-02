@@ -1,24 +1,84 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
 .top-half{
     background-color: black;
     height: 120vh;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 1600px) {
+    .top-half {
+        height: 110vh;
+    }
+}
+
+@media (max-width: 1200px) {
+    .top-half {
+        height: 100vh;
+    }
+}
+
+@media (max-width: 1000px) {
+    .top-half {
+        height: 80vh;
+    }
+}
+
+@media (max-width: 800px) {
+    .top-half {
+        height: 60vh;
+    }
+}
+
+@media (max-width: 600px) {
+    .top-half {
+        height: 45vh;
+    }
+}
+
+@media (max-width: 500px) {
+    .top-half {
+        height: 40vh;
+    }
+}
+
+@media (max-width: 450px) {
+    .top-half {
+        height: 35vh;
+    }
+}
+
+@media (max-width: 400px) {
+    .top-half {
+        height: 30vh;
+    }
+}
+
+@media (max-width: 300px) {
+    .top-half {
+        height: 25vh;
+    }
 }
 
 .firstbanner {
-    position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 5%;
-    margin: 5%;
+    margin: auto;
+    margin-top: 6%;
     background-color: rgb(255, 75, 105);
     color: white;
-    font-size: 5vh;
+    /* font-size: 5vh; */
+    font-size: 3vw;
     font-weight: 700;
     border-radius: 15px;
     width: 70vw;
-    left: 5vw;
-
 }
 
 .banner-btn {
@@ -26,6 +86,7 @@
     background: transparent;
     border-radius: 10px;
     border: 1px solid white;
+    font-size: 1vw;
     padding: 10px 20px;
 }
 
@@ -37,22 +98,27 @@
 
 .pic-ban {
     
-    position: absolute;
+    /* position: absolute; */
     display: flex;
     justify-content: flex-end;
     align-items: center;
     flex-direction: column;
     padding: 5%;
     width: 80vw;
-    left: 5vw;
-    top: 70vh;
+    margin: auto;
+    margin-top: -35rem;
+    /* left: 5vw;
+    top: 60vh; */
     height: 70vh;
+    
     color: white;
+    font-size: auto;
     
 }
 
 .pic-ban-img {
-    height: 70vh;
+    height: auto;
+    max-height: 70vh;
     border-radius: 15px;
     width: 100%;
 }
@@ -85,58 +151,60 @@
 }
 
 .next-trip {
-    position: absolute;
     display: flex;
-    top: 155vh;
+    margin: 0, auto;
 }
 
 .trip-title {
-    position: relative;
-    left: 10vw;
-    font-size: 5vh;
+    font-size: 3vw;
     font-weight: 600;
     flex-direction: row;
+    margin-left: 10vw;
+
   
 }
 
 
 .tabs {
-    position: absolute;
-    top: 10vh;
-    left: 9vw;
+    
     display: flex;
     flex-direction: row;
-    margin-top: 3vh;
+    margin: auto;
+    width: 80vw;
+
 }
 
 .tab {
-    padding: 5px;
-    margin: 0.2vw;
+
     color: white;
-    width: 19.4vw;
+    width: 18.4vw;
+    display: flex;
+    flex-direction: column;
+    padding: 0.9vw;
 }
 
 .tab-lower {
-    position: relative;
+    
     background-color: rgb(255, 75, 105);
     border-radius: 0px 0px 10px 10px;
-    top: -4vh;
-    height: 22vh;
+    height: auto;
+    padding-bottom: 2vh;
 }
 
 .tab-img {
     border-radius: 10px 10px 0px 0px;
-    width: 19.4vw;
+    width: 18.4vw;
+    
 }
 
 .location {
-    font-size: 3.5vh;
+    font-size: 1.9vw;
     margin-left: 0.3vw;
 }
 
 .miles {
-    font-size: 1.5vh;
+    font-size: 1.4vh;
     margin-left: 0.3vw;
-    margin-top: -2vh;
-    height: 10vh;
+    margin-top: -1vw;
+    
 }
