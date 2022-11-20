@@ -1,67 +1,20 @@
+
+/* UPDATED CSS */
+
 .container {
     display: flex;
     flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    
 }
 
-.top-half{
-    background-color: black;
-    height: 120vh;
+.top-half {
     display: flex;
     flex-direction: column;
-}
+    background-color: black;
+    height: auto;
 
-@media (max-width: 1600px) {
-    .top-half {
-        height: 110vh;
-    }
-}
-
-@media (max-width: 1200px) {
-    .top-half {
-        height: 100vh;
-    }
-}
-
-@media (max-width: 1000px) {
-    .top-half {
-        height: 80vh;
-    }
-}
-
-@media (max-width: 800px) {
-    .top-half {
-        height: 60vh;
-    }
-}
-
-@media (max-width: 600px) {
-    .top-half {
-        height: 45vh;
-    }
-}
-
-@media (max-width: 500px) {
-    .top-half {
-        height: 40vh;
-    }
-}
-
-@media (max-width: 450px) {
-    .top-half {
-        height: 35vh;
-    }
-}
-
-@media (max-width: 400px) {
-    .top-half {
-        height: 30vh;
-    }
-}
-
-@media (max-width: 300px) {
-    .top-half {
-        height: 25vh;
-    }
 }
 
 .firstbanner {
@@ -74,7 +27,6 @@
     margin-top: 6%;
     background-color: rgb(255, 75, 105);
     color: white;
-    /* font-size: 5vh; */
     font-size: 3vw;
     font-weight: 700;
     border-radius: 15px;
@@ -96,54 +48,49 @@
 
 }
 
+
 .pic-ban {
-    
-    /* position: absolute; */
     display: flex;
     justify-content: flex-end;
     align-items: center;
     flex-direction: column;
     padding: 5%;
-    width: 80vw;
+    width: 70vw;
     margin: auto;
-    margin-top: -35rem;
-    /* left: 5vw;
-    top: 60vh; */
     height: 70vh;
-    
     color: white;
     font-size: auto;
-    
+    background-image: url("./images/cabin.jpg");
+    border-radius: 15px;
+    max-height: 70vh;
+    background-repeat: no-repeat;
+    margin-top: 10%;
+    overflow: visible;
+    margin-bottom: 5%;
+    background-position: center center;
 }
 
-.pic-ban-img {
-    height: auto;
-    max-height: 70vh;
-    border-radius: 15px;
-    width: 100%;
+@media (width: 900px) {
+    .pic-ban {
+        height: 40vh;
+        background-size: 40vh;
+    }
 }
+
 
 
 .pic-ban-txt {
-    position: absolute;
     font-size: 3vw;
     font-weight: 600;
-    margin: 10%;
-
 }
 
 .pic-ban-btn {
-    position: absolute;
-    align-items: flex-end;
-    justify-content: center;
     padding: 1.1% 2%;
     border-radius: 40px;
     border-style: none;
     color: purple;
     font-size: 1vw;
     font-weight: 700;
-    margin: 4%
-    /* width: 12vw; */   
 }
 
 .pic-ban-btn:hover {
@@ -160,22 +107,17 @@
     font-weight: 600;
     flex-direction: row;
     margin-left: 10vw;
-
-  
 }
 
 
 .tabs {
-    
     display: flex;
     flex-direction: row;
     margin: auto;
     width: 80vw;
-
 }
 
 .tab {
-
     color: white;
     width: 18.4vw;
     display: flex;
@@ -184,7 +126,6 @@
 }
 
 .tab-lower {
-    
     background-color: rgb(255, 75, 105);
     border-radius: 0px 0px 10px 10px;
     height: auto;
@@ -194,7 +135,12 @@
 .tab-img {
     border-radius: 10px 10px 0px 0px;
     width: 18.4vw;
-    
+}
+
+@media (width: 250px) {
+    .tab-img {
+        border-radius: 5px 5px 0px 0px;
+    }
 }
 
 .location {
@@ -207,4 +153,4 @@
     margin-left: 0.3vw;
     margin-top: -1vw;
     
-}
+} 

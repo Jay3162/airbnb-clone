@@ -5,12 +5,6 @@ import Footer from '../footer/footer'
 
 export default function LowerTab () {
 
-    const caves = new URL('./images/caves.jpg', import.meta.url)
-    const rental = new URL('./images/vacation-rental.webp', import.meta.url)
-    const card = new URL('./images/airbnb-gift-card.jpg', import.meta.url)
-    const card2 = new URL('./images/airbnb-card-bg.png', import.meta.url)
-    const card3 = new URL('./images/airbnb-card-bg2.png', import.meta.url)
-    const fieldBg = new URL('./images/women-road-brunette-flowers-wallpaper.jpg', import.meta.url)
     return (
         <div className={style["container"]}>
             <div>
@@ -39,9 +33,9 @@ export default function LowerTab () {
                     <button className={style["gift-btn"]}>Learn more</button>
                 </div>
                 <div className={style["cards"]}>
-                    <img className={style["card1"]} src={card}></img>
-                    <img className={style["card2"]} src={card2}></img>
-                    <img className={style["card3"]} src={card3}></img>
+                    <div className={style["card1"]} ></div>
+                    <div className={style["card2"]} ></div>
+                    <div className={style["card3"]} ></div>
                 </div>
             </div>
             <div className={style["last-tab"]}>

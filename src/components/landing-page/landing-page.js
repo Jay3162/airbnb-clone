@@ -6,7 +6,6 @@ import LowerTab from '../lower-tabs/lower-tabs';
 import Footer from '../footer/footer';
 
 export default function LandingPage() {
-    const cabin = new URL('./images/cabin.jpg', import.meta.url)
 
     const brightPic = new URL('./images/bright-pic.webp', import.meta.url)
     const windPic = new URL('./images/windPic.webp', import.meta.url)
@@ -17,17 +16,18 @@ export default function LandingPage() {
                 <div className={style["top-half"]}>
                     <NavBar/>
                     <SearchBar/>
+                    <div className={style["banners-wrapper"]}>
                     <div className={style["firstbanner"]}>
                         <p className={style["banner-title"]}>Lorem ipsum dolor sit amet, consectetur</p>
                         <button className={style["banner-btn"]}>Learn more</button>
                     </div>
+                    <div className={style["pic-ban"]}>
+                            <p className={style["pic-ban-txt"]}>Let your curiousity do the booking</p>
+                        <button className={style["pic-ban-btn"]}>I'm flexible</button>
+                    </div>
 
+                    </div>
 
-                </div>
-                <div className={style["pic-ban"]}>
-                    <img src={cabin} className={style["pic-ban-img"]}></img>
-                    <p className={style["pic-ban-txt"]}>Let your curiousity do the booking</p>
-                    <button className={style["pic-ban-btn"]}>I'm flexible</button>
                 </div>
 
                 <div>
