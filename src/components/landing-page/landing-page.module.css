@@ -48,7 +48,6 @@
 
 }
 
-
 .pic-ban {
     display: flex;
     justify-content: flex-end;
@@ -57,12 +56,11 @@
     padding: 5%;
     width: 70vw;
     margin: auto;
-    height: 70vh;
     color: white;
     font-size: auto;
     background-image: url("./images/cabin.jpg");
     border-radius: 15px;
-    max-height: 70vh;
+    height: 70vh;
     background-repeat: no-repeat;
     margin-top: 10%;
     overflow: visible;
@@ -70,14 +68,17 @@
     background-position: center center;
 }
 
-@media (width: 900px) {
+@media (max-width: 900px) {
     .pic-ban {
-        height: 40vh;
-        background-size: 40vh;
+        height: 60vh;
     }
 }
 
-
+@media (max-width: 500px) {
+    .pic-ban {
+        height: 30vh;
+    }
+}
 
 .pic-ban-txt {
     font-size: 3vw;
