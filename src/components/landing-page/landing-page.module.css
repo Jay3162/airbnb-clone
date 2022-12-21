@@ -14,7 +14,6 @@
     flex-direction: column;
     background-color: black;
     height: auto;
-
 }
 
 .firstbanner {
@@ -132,6 +131,10 @@
     border-radius: 0px 0px 10px 10px;
     height: auto;
     padding-bottom: 2vh;
+}
+
+@media (width: 1366px) {
+    
 }
 
 .tab-img {

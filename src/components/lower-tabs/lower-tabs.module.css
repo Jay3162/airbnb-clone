@@ -143,16 +143,24 @@
     }
 }
 
+@media (max-width: 1366px) {
+    .card1, .card2, .card3 {
+        width: 8vw;
+    }
+}
+
+
 @media (max-height: 350px) {
     .card1, .card2, .card3 {
         height: 12vh;
-        width: 14vw;
+        width: 10vw;
     }
  }
 
  @media (max-height: 950px) {
     .card1, .card2, .card3 {
         height: 10vh;
+        width: 16vw;
     }
  }
 

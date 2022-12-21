@@ -59,11 +59,15 @@
     }
 
 }
-
+@media (height: 649px) {
+    .btn-wrapper {
+        margin-top: -4.5vh;
+    }
+}
 
 @media (height: 450px) {
     .btn-wrapper {
-        margin-top: -4.5vh;
+        margin-top: -5.4vh;
     }
 }
 
