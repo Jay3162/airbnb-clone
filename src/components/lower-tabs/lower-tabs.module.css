@@ -119,50 +119,18 @@
     background-size: cover;
 }
 
-@media (max-width: 350px) {
-    .card1, .card2, .card3 {
-        height: 6vh;
-        width: 17vw;
-        border-radius: 10px;
+@media (max-width: 1400px) {
+    .gift-cards {
+        display: none;
     }
 }
 
-@media (max-width: 550px) {
-    .card1, .card2, .card3 {
-        height: 10vh;
-        width: 17vw;
-        border-radius: 10px;
+@media (max-height: 1400px) {
+    .gift-cards {
+        display: none;
     }
 }
 
-@media (max-width: 750px) {
-    .card1, .card2, .card3 {
-        height: 20vh;
-        width: 16vw;
-        border-radius: 10px;
-    }
-}
-
-@media (max-width: 1366px) {
-    .card1, .card2, .card3 {
-        width: 8vw;
-    }
-}
-
-
-@media (max-height: 350px) {
-    .card1, .card2, .card3 {
-        height: 12vh;
-        width: 10vw;
-    }
- }
-
- @media (max-height: 950px) {
-    .card1, .card2, .card3 {
-        height: 10vh;
-        width: 16vw;
-    }
- }
 
 .last-tab {
     display: flex;
